@@ -1,0 +1,17 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
+
+# Other
+.env
+*-debug.log
+dist/
+credentials.json
+token.json
+.vscode
