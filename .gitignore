@@ -11,7 +11,7 @@ jspm_packages
 # Other
 .env
 *-debug.log
-dist/
+build/
 credentials.json
 token.json
 .vscode
