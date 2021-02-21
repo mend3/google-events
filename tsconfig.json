@@ -1,14 +1,21 @@
 {
   "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
     "baseUrl": "src",
     "lib": ["es2017"],
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitAny": true,
+    "esModuleInterop": true,
     "sourceMap": true,
+    "declaration": true,
     "target": "es2017",
-    "outDir": "lib"
+    "types": ["node","jest"]
   },
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
 }
